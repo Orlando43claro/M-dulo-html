@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    backdrop-filter: blur(10px);
+}
+
+.card-header {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.card-header:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+pre {
+    background: #1e1e1e;
+    color: #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.accordion .card {
+    margin-bottom: 1.5rem;
+}
+
+.accordion .card-header {
+    padding: 1rem 1.25rem;
+}
+
+.accordion .card-body {
+    padding: 1.25rem;
+}
