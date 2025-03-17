@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Completa de Etiquetas HTML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center fw-bold">📜 Todas las Etiquetas HTML <i class="fas fa-code"></i></h2>
+
+        <div class="accordion mt-4" id="htmlTags">
+
+            <!-- 📌 Estructura Básica -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#estructura">
+                    <h5 class="mb-0"><i class="fas fa-layer-group"></i> Estructura Básica</h5>
+                </div>
+                <div id="estructura" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Mi Página&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hola Mundo&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Texto y Formato -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#texto">
+                    <h5 class="mb-0"><i class="fas fa-font"></i> Texto y Formato</h5>
+                </div>
+                <div id="texto" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;p&gt;Este es un párrafo&lt;/p&gt;
+&lt;b&gt;Texto en negrita&lt;/b&gt;
+&lt;i&gt;Texto en cursiva&lt;/i&gt;
+&lt;u&gt;Texto subrayado&lt;/u&gt;
+&lt;mark&gt;Texto resaltado&lt;/mark&gt;
+&lt;small&gt;Texto pequeño&lt;/small&gt;
+&lt;sub&gt;Subíndice&lt;/sub&gt; y &lt;sup&gt;Superíndice&lt;/sup&gt;
+&lt;del&gt;Texto tachado&lt;/del&gt;
+&lt;ins&gt;Texto insertado&lt;/ins&gt;
+&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Listas -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#listas">
+                    <h5 class="mb-0"><i class="fas fa-list"></i> Listas</h5>
+                </div>
+                <div id="listas" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;dl&gt;
+    &lt;dt&gt;Término&lt;/dt&gt;
+    &lt;dd&gt;Definición&lt;/dd&gt;
+&lt;/dl&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Enlaces e Imágenes -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#enlaces">
+                    <h5 class="mb-0"><i class="fas fa-link"></i> Enlaces e Imágenes</h5>
+                </div>
+                <div id="enlaces" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;a href="https://example.com"&gt;Ir a Ejemplo&lt;/a&gt;
+&lt;img src="imagen.jpg" alt="Descripción"&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Formularios -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#formularios">
+                    <h5 class="mb-0"><i class="fas fa-edit"></i> Formularios</h5>
+                </div>
+                <div id="formularios" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;form&gt;
+    &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+    &lt;input type="text" id="nombre" name="nombre"&gt;
+    &lt;button type="submit"&gt;Enviar&lt;/button&gt;
+&lt;/form&gt;
+&lt;input type="radio" id="hombre" name="genero" value="hombre"&gt;
+&lt;label for="hombre"&gt;Hombre&lt;/label&gt;
+&lt;input type="checkbox" id="acepto" name="acepto"&gt;
+&lt;label for="acepto"&gt;Acepto los términos&lt;/label&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Multimedia -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#multimedia">
+                    <h5 class="mb-0"><i class="fas fa-image"></i> Multimedia</h5>
+                </div>
+                <div id="multimedia" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;video controls&gt;
+    &lt;source src="video.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+&lt;audio controls&gt;
+    &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+&lt;canvas width="200" height="200"&gt;&lt;/canvas&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Tablas -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#tablas">
+                    <h5 class="mb-0"><i class="fas fa-table"></i> Tablas</h5>
+                </div>
+                <div id="tablas" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Encabezado 1&lt;/th&gt;
+            &lt;th&gt;Encabezado 2&lt;/th&gt;
+            &lt;th&gt;Encabezado 3&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Celda 1&lt;/td&gt;
+            &lt;td&gt;Celda 2&lt;/td&gt;
+            &lt;td&gt;Celda 3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Celda 4&lt;/td&gt;
+            &lt;td&gt;Celda 5&lt;/td&gt;
+            &lt;td&gt;Celda 6&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Elementos Semánticos -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#semanticos">
+                    <h5 class="mb-0"><i class="fas fa-book"></i> Elementos Semánticos</h5>
+                </div>
+                <div id="semanticos" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;article&gt;
+    &lt;header&gt;Título del artículo&lt;/header&gt;
+    &lt;p&gt;Contenido del artículo.&lt;/p&gt;
+    &lt;footer&gt;Pie del artículo&lt;/footer&gt;
+&lt;/article&gt;
+
+&lt;section&gt;
+    &lt;h2&gt;Título de la sección&lt;/h2&gt;
+    &lt;p&gt;Contenido de la sección.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;nav&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="#inicio"&gt;Inicio&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#servicios"&gt;Servicios&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#contacto"&gt;Contacto&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/nav&gt;
+
+&lt;aside&gt;
+    &lt;p&gt;Contenido relacionado.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;header&gt;
+    &lt;h1&gt;Encabezado principal&lt;/h1&gt;
+    &lt;p&gt;Descripción del encabezado&lt;/p&gt;
+&lt;/header&gt;
+
+&lt;footer&gt;
+    &lt;p&gt;Pie de página&lt;/p&gt;
+&lt;/footer&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Contenedores -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#contenedores">
+                    <h5 class="mb-0"><i class="fas fa-box"></i> Contenedores</h5>
+                </div>
+                <div id="contenedores" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;div&gt;Contenedor en bloque&lt;/div&gt;
+&lt;span&gt;Contenedor en línea&lt;/span&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Elementos Interactivos -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#interactivos">
+                    <h5 class="mb-0"><i class="fas fa-mouse-pointer"></i> Elementos Interactivos</h5>
+                </div>
+                <div id="interactivos" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;details&gt;
+    &lt;summary&gt;Más información&lt;/summary&gt;
+    Este es el contenido expandible.
+&lt;/details&gt;
+&lt;dialog open&gt;Este es un cuadro de diálogo&lt;/dialog&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Elementos Obsoletos -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#obsoletos">
+                    <h5 class="mb-0"><i class="fas fa-exclamation-triangle"></i> Elementos Obsoletos</h5>
+                </div>
+                <div id="obsoletos" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;center&gt;Este texto está centrado&lt;/center&gt;
+&lt;font color="red"&gt;Texto en rojo&lt;/font&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Citas y Código -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#citas">
+                    <h5 class="mb-0"><i class="fas fa-quote-left"></i> Citas y Código</h5>
+                </div>
+                <div id="citas" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;blockquote&gt;Esta es una cita en bloque.&lt;/blockquote&gt;
+&lt;cite&gt;Fuente de la cita&lt;/cite&gt;
+&lt;code&gt;console.log('Hola, Mundo');&lt;/code&gt;
+&lt;pre&gt;
+    &lt;code&gt;
+        function hola() {
+            console.log('Hola, Mundo');
+        }
+    &lt;/code&gt;
+&lt;/pre&gt;
+&lt;kbd&gt;Ctrl+C&lt;/kbd&gt;
+&lt;samp&gt;Mensaje de salida&lt;/samp&gt;
+&lt;var&gt;variable&lt;/var&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Figura -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#figura">
+                    <h5 class="mb-0"><i class="fas fa-image"></i> Figura</h5>
+                </div>
+                <div id="figura" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;figure&gt;
+    &lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+    &lt;figcaption&gt;Leyenda de la imagen&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Progreso y Medidor -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#progreso">
+                    <h5 class="mb-0"><i class="fas fa-tachometer-alt"></i> Progreso y Medidor</h5>
+                </div>
+                <div id="progreso" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;progress value="70" max="100"&gt;70%&lt;/progress&gt;
+&lt;meter value="2" min="0" max="10"&gt;2 de 10&lt;/meter&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Tiempo y Marcado -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#tiempo">
+                    <h5 class="mb-0"><i class="fas fa-clock"></i> Tiempo y Marcado</h5>
+                </div>
+                <div id="tiempo" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;time datetime="2025-03-07T13:34"&gt;7 de marzo de 2025&lt;/time&gt;
+&lt;mark&gt;Texto resaltado&lt;/mark&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Datos y Salida -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#datos">
+                    <h5 class="mb-0"><i class="fas fa-database"></i> Datos y Salida</h5>
+                </div>
+                <div id="datos" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;data value="50"&gt;50 unidades&lt;/data&gt;
+&lt;output name="result"&gt;Resultado&lt;/output&gt;
+&lt;input list="sugerencias"&gt;
+&lt;datalist id="sugerencias"&gt;
+    &lt;option value="Opción 1"&gt;
+    &lt;option value="Opción 2"&gt;
+    &lt;option value="Opción 3"&gt;
+&lt;/datalist&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Incrustar contenido -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#incrustar">
+                    <h5 class="mb-0"><i class="fas fa-code"></i> Incrustar contenido</h5>
+                </div>
+                <div id="incrustar" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;iframe src="https://www.example.com"&gt;&lt;/iframe&gt;
+&lt;embed src="archivo.pdf" type="application/pdf"&gt;
+&lt;object data="archivo.swf" type="application/x-shockwave-flash"&gt;&lt;/object&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Dirección y Dirección de Texto -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#direccion">
+                    <h5 class="mb-0"><i class="fas fa-map-marker-alt"></i> Dirección y Dirección de Texto</h5>
+                </div>
+                <div id="direccion" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;address&gt;
+Nombre de la Compañía&lt;br&gt;
+Calle 1234, Ciudad, País&lt;br&gt;
+&lt;a href="mailto:info@ejemplo.com"&gt;info@ejemplo.com&lt;/a&gt;
+&lt;/address&gt;
+&lt;bdi&gt;Texto independiente del contexto&lt;/bdi&gt;
+&lt;bdo dir="rtl"&gt;Texto de derecha a izquierda&lt;/bdo&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Inserción y Eliminación de Texto -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#insercion-eliminacion">
+                    <h5 class="mb-0"><i class="fas fa-pen-alt"></i> Inserción y Eliminación de Texto</h5>
+                </div>
+                <div id="insercion-eliminacion" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;ins&gt;Texto insertado&lt;/ins&gt;
+&lt;del&gt;Texto eliminado&lt;/del&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Grupo de Opciones -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#optgroup">
+                    <h5 class="mb-0"><i class="fas fa-list-alt"></i> Grupo de Opciones</h5>
+                </div>
+                <div id="optgroup" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;select&gt;
+    &lt;optgroup label="Grupo 1"&gt;
+        &lt;option value="1"&gt;Opción 1&lt;/option&gt;
+        &lt;option value="2"&gt;Opción 2&lt;/option&gt;
+    &lt;/optgroup&gt;
+    &lt;optgroup label="Grupo 2"&gt;
+        &lt;option value="3"&gt;Opción 3&lt;/option&gt;
+        &lt;option value="4"&gt;Opción 4&lt;/option&gt;
+    &lt;/optgroup&gt;
+&lt;/select&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Tabla Avanzada -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#tabla-avanzada">
+                    <h5 class="mb-0"><i class="fas fa-table"></i> Tabla Avanzada</h5>
+                </div>
+                <div id="tabla-avanzada" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;table&gt;
+    &lt;caption&gt;Título de la Tabla&lt;/caption&gt;
+    &lt;colgroup&gt;
+        &lt;col span="2" style="background-color: #f4f4f4"&gt;
+        &lt;col style="background-color: #fff"&gt;
+    &lt;/colgroup&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Encabezado 1&lt;/th&gt;
+            &lt;th&gt;Encabezado 2&lt;/th&gt;
+            &lt;th&gt;Encabezado 3&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Celda 1&lt;/td&gt;
+            &lt;td&gt;Celda 2&lt;/td&gt;
+            &lt;td&gt;Celda 3&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Celda 4&lt;/td&gt;
+            &lt;td&gt;Celda 5&lt;/td&gt;
+            &lt;td&gt;Celda 6&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Gráficos y Matemáticas -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#graficos-matematicas">
+                    <h5 class="mb-0"><i class="fas fa-shapes"></i> Gráficos y Matemáticas</h5>
+                </div>
+                <div id="graficos-matematicas" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;svg width="100" height="100"&gt;
+    &lt;circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /&gt;
+&lt;/svg&gt;
+
+&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;
+    &lt;mrow&gt;
+        &lt;msup&gt;
+            &lt;mi&gt;x&lt;/mi&gt;
+            &lt;mn&gt;2&lt;/mn&gt;
+        &lt;/msup&gt;
+        &lt;mo&gt;+&lt;/mo&gt;
+        &lt;msup&gt;
+            &lt;mi&gt;y&lt;/mi&gt;
+            &lt;mn&gt;2&lt;/mn&gt;
+        &lt;/msup&gt;
+        &lt;mo&gt;=&lt;/mo&gt;
+        &lt;msup&gt;
+            &lt;mi&gt;z&lt;/mi&gt;
+            &lt;mn&gt;2&lt;/mn&gt;
+        &lt;/msup&gt;
+    &lt;/mrow&gt;
+&lt;/math&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 📌 Texto Enriquecido -->
+            <div class="card mb-3">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#texto-enriquecido">
+                    <h5 class="mb-0"><i class="fas fa-text-height"></i> Texto Enriquecido</h5>
+                </div>
+                <div id="texto-enriquecido" class="collapse" data-bs-parent="#htmlTags">
+                    <div class="card-body">
+                        <pre>&lt;b&gt;Texto en negrita&lt;/b&gt;
+&lt;em&gt;Texto enfatizado&lt;/em&gt;
+&lt;strong&gt;Texto importante&lt;/strong&gt;
+&lt;i&gt;Texto en cursiva&lt;/i&gt;
+&lt;small&gt;Texto pequeño&lt;/small&gt;
+&lt;sup&gt;Superíndice&lt;/sup&gt;
+&lt;sub&gt;Subíndice&lt;/sub&gt;</pre>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
